@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form di Dalam Tabel</title>
+  </head>
+  <body>
+    <h1>Contoh elemen-elemen form pada HTML</h1>
+    <form>
+      <table cellpadding="5">
+        <tr>
+          <td align="right"><label for="nama">Nama:</label></td>
+          <td colspan="2">
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan nama"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="passwd">Password:</label></td>
+          <td colspan="2">
+            <input
+              type="password"
+              name="password"
+              id="passwd"
+              placeholder="Masukkan password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="email">Email:</label></td>
+          <td colspan="2">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Masukkan email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="umur">Umur:</label></td>
+          <td colspan="2">
+            <input
+              type="number"
+              name="umur"
+              id="umur"
+              min="0"
+              max="100"
+              step="5"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="tanggal">Tanggal Lahir:</label></td>
+          <td colspan="2"><input type="date" name="tanggal" id="tanggal" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="warna">Pilih Warna:</label></td>
+          <td colspan="2"><input type="color" name="warna" id="warna" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="telepon">Masukkan No HP:</label></td>
+          <td colspan="2">
+            <input type="tel" name="nomorTelepon" id="telepon" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="file">Masukkan File:</label></td>
+          <td colspan="2"><input type="file" name="file" id="file" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="url">Masukkan URL:</label></td>
+          <td colspan="2"><input type="url" name="url" id="url" /></td>
+        </tr>
+        <tr>
+          <td align="right"><p>Pilih Jenis Kelamin:</p></td>
+          <td>
+            <input
+              type="radio"
+              name="gender"
+              id="gender1"
+              value="Pria"
+              checked
+            />
+            <label for="gender1">Pria</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" id="gender2" value="Wanita" />
+            <label for="gender2">Wanita</label>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><p>Pilih Hobi:</p></td>
+          <td>
+            <input type="checkbox" name="hobi1" id="hobi1" value="membaca" />
+            <label for="hobi1">Membaca</label><br />
+            <input type="checkbox" name="hobi2" id="hobi2" value="Olahraga" />
+            <label for="hobi2">Olahraga</label><br />
+          </td>
+          <td>
+            <input type="checkbox" name="hobi3" id="hobi3" value="memasak" />
+            <label for="hobi3">Memasak</label><br />
+            <input type="checkbox" name="hobi4" id="hobi4" value="menulis" />
+            <label for="hobi4">Menulis</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Kirim</button></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

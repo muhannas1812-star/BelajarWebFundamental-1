@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form</title>
+  </head>
+  <body>
+    <h1>Contoh elemen-elemen form pada HTML</h1>
+    <form>
+      <label for="nama">Nama:</label> <br />
+      <input type="text" name="nama" id="nama" placeholder="Masukkan nama" />
+      <br />
+
+      <label for="passwd">Password:</label><br />
+      <input
+        type="password"
+        name="password"
+        id="passwd"
+        placeholder="Masukkan password"
+      />
+      <br />
+
+      <label for="email">Email:</label> <br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Masukkan email"
+      />
+      <br />
+
+      <label for="umur">Umur:</label><br />
+      <input type="number" name="umur" id="umur" min="0" max="100" step="5" />
+      <br />
+
+      <label for="tanggal">Tanggal Lahir:</label><br />
+      <input type="date" name="tanggal" id="tanggal" /><br />
+
+      <label for="warna">Pilih Warna:</label> <br />
+      <input type="color" name="warna" id="warna" /><br />
+
+      <label for="telepon">Masukkan No HP:</label><br />
+      <input type="tel" name="nomorTelepon" id="telepon" /><br />
+
+      <label for="file">Masukkan File:</label><br />
+      <input type="file" name="file" id="file" /><br />
+
+      <label for="url">Masukkan URL:</label><br />
+      <input type="url" name="url" id="url" /><br />
+
+      <p>Pilih Jenis Kelamin:</p>
+      <input type="radio" name="gender" id="gender1" value="Pria" />
+      <label for="gender1">Pria</label>
+      <input type="radio" name="gender" id="gender2" value="Wanita" />
+      <label for="gender2">Wanita</label>
+
+      <p>Pilih Hobi:</p>
+      <input type="checkbox" name="hobi1" id="hobi1" value="membaca" />
+      <label for="hobi1">Membaca</label><br />
+      <input type="checkbox" name="hobi2" id="hobi2" value="Olahraga" />
+      <label for="hobi2">Olahraga</label><br />
+      <input type="checkbox" name="hobi3" id="hobi3" value="memasak" />
+      <label for="hobi3">Memasak</label><br />
+      <input type="checkbox" name="hobi4" id="hobi4" value="menulis" />
+      <label for="hobi4">Menulis</label>
+
+      <br />
+      <br />
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
